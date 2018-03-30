@@ -2,8 +2,8 @@ var express = require('express');
 var app = express();
 
 app.get('/',function(req,res) {
-  res.send("<h1>hi there!</h1><h2 style="color:red"> Hello from NodeJS World!</h2>");
-  
+  res.send("<h1>hi there!</h1><h2 style="color:red"> Hello from Demo App!</h2>");
+
 });
 
 app.listen(8000);
